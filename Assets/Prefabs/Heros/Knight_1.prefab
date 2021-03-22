@@ -104,6 +104,7 @@ MonoBehaviour:
   isHealer: 0
   otherHeros: []
   Boss: {fileID: 0}
+  DeathSprite: {fileID: 21300000, guid: cbc779ee7605bd74799b9aa8cf52d4ff, type: 3}
 --- !u!95 &6792009749965121804
 Animator:
   serializedVersion: 3

@@ -57,14 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BossFight\Hero.cs" />
-    <Compile Include="Assets\Scripts\KilledPiece.cs" />
-    <Compile Include="Assets\Scripts\MovePieces.cs" />
-    <Compile Include="Assets\Scripts\Point.cs" />
-    <Compile Include="Assets\Scripts\ArrayLayout.cs" />
-    <Compile Include="Assets\Scripts\MoveManager.cs" />
-    <Compile Include="Assets\Scripts\NodePiece.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\KilledPiece.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\MovePieces.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\Point.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\ArrayLayout.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\MoveManager.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\NodePiece.cs" />
     <Compile Include="Assets\Scripts\BossFight\Boss.cs" />
-    <Compile Include="Assets\Scripts\Match3.cs" />
+    <Compile Include="Assets\Scripts\Match 3 Puzzle\Match3.cs" />
+    <Compile Include="Assets\Scripts\MainMenuManager.cs" />
+    <Compile Include="Assets\Scripts\BossFight\GamePlayManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

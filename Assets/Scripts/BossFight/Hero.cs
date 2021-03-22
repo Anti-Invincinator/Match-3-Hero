@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
+    GamePlayManager manager;
+
     [Header("Hero Stats")]
     public int health;
     public int damage;
     public float attackSpeed;
     private float lastCallTime;
+    private bool isAlive = true;
 
     [SerializeField]
     private int damageRate;
@@ -27,6 +30,7 @@ public class Hero : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        manager = FindObjectOfType<GamePlayManager>();
     }
 
     private void Update()
@@ -43,6 +47,13 @@ public class Hero : MonoBehaviour
 
                 else Attack(Boss);
             }
+        }
+        else if(isAlive)   //To Stop Continuous Update
+        {
+            isAlive = false;
+            CheckOtherHeroes();
+            Destroy(animator);
+            Destroy(gameObject);
         }
     }
 
@@ -65,6 +76,16 @@ public class Hero : MonoBehaviour
 
         //reset attack timer
         lastCallTime = Time.time;
+    }
+
+    public void CheckOtherHeroes()
+    {
+        bool areAllHerosAlive = true;
+        foreach (Hero hero in otherHeros)
+       {
+         areAllHerosAlive = hero.isAlive;    
+       }
+        manager.CheckEndGame(areAllHerosAlive);
     }
 
     //Take Damage

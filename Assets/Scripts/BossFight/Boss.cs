@@ -5,6 +5,8 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
 
+    public GamePlayManager manager;
+
     [Header("Stats")]
     public int health;
     public float attackSpeed;
@@ -21,10 +23,15 @@ public class Boss : MonoBehaviour
 
     SpriteRenderer bossSprite;
 
+    [SerializeField]
+    List<Sprite> bossTypes;
+
 
     private void Start()
     {
         bossSprite = GetComponent<SpriteRenderer>();
+
+        bossSprite.sprite = bossTypes[Random.Range(0, bossTypes.Count) + 1];
     }
 
     private void Update()
@@ -33,7 +40,7 @@ public class Boss : MonoBehaviour
         if (Time.time - lastAttackTime >= attackSpeed)  AttackHero();
 
         //Destroying if Dead
-        if (health <= 0) Destroy(this.gameObject);
+        if (health <= 0) manager.EndGame();
 
         //Buffing in Intervals
         if (Time.time - lastBuffTime >= buffRate) BuffBoss();
@@ -67,7 +74,6 @@ public class Boss : MonoBehaviour
         lastBuffTime = Time.time;
     }
 
-
     //Make Enemy/Player Flash Red when they take damage
     public IEnumerator FlashRed(SpriteRenderer sprite)
     {
@@ -75,6 +81,4 @@ public class Boss : MonoBehaviour
         yield return new WaitForSeconds(0.25f);
         sprite.color = Color.white;
     }
-
-
 }
