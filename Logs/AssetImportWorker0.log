@@ -1,0 +1,346 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16311 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+H:\Unity Project\Unity\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Important Unity Project/Match-3-Hero
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62405
+Successfully changed project path to: C:/Important Unity Project/Match-3-Hero
+C:/Important Unity Project/Match-3-Hero
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path H:/Unity Project/Unity/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Important Unity Project/Match-3-Hero/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.6079
+Initialize mono
+Mono path[0] = 'H:/Unity Project/Unity/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'H:/Unity Project/Unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'H:/Unity Project/Unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/Unity Project/Unity/2020.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: H:/Unity Project/Unity/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002157 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.528 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2245.
+Total: 2.553700 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.058500 ms MarkObjects: 2.073500 ms  DeleteObjects: 0.161800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Knight 1/knight_1_animation.controller
+  artifactKey: Guid(476c1330052e0704fa3ceea771ae7fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight 1/knight_1_animation.controller using Guid(476c1330052e0704fa3ceea771ae7fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2eded239d131f1552f3cfdfe3fcc1d') in 0.070062 seconds
+  Import took 0.073792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.536714 seconds.
+  path: Assets/Scripts/BossFight/Hero.cs
+  artifactKey: Guid(a52d5f13586267c48b9a38ffabc268a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossFight/Hero.cs using Guid(a52d5f13586267c48b9a38ffabc268a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51fbed3b95b1fa2f15ab3b54035bed5') in 0.015389 seconds
+  Import took 0.018975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229061 seconds.
+  path: Assets/Scripts/KilledPiece.cs
+  artifactKey: Guid(b7d946e2b1d1bbc42babd55fd328eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KilledPiece.cs using Guid(b7d946e2b1d1bbc42babd55fd328eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97aefca86edec209a47efd4f266fd2cd') in 0.009099 seconds
+  Import took 0.012673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237995 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8a7ae192d11363824552f322d38f0b') in 0.010053 seconds
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317951 seconds.
+  path: Assets/Scripts/MovePieces.cs
+  artifactKey: Guid(0d6c405510c380146b27f47a64403b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MovePieces.cs using Guid(0d6c405510c380146b27f47a64403b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b802af34acd15742b10d0464eb8e7') in 0.008975 seconds
+  Import took 0.012566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156630 seconds.
+  path: Assets/Prefabs/Heros/Archer.prefab
+  artifactKey: Guid(b618a5b3f45a30745be4917e5b91fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heros/Archer.prefab using Guid(b618a5b3f45a30745be4917e5b91fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Archer': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: '1d04e542cd024205d11c3821849725f0') in 0.114442 seconds
+  Import took 0.118350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022758 seconds.
+  path: Assets/Sprites/Healer/Healer.controller
+  artifactKey: Guid(7ea375220fb09dd4790bbab56d685ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Healer/Healer.controller using Guid(7ea375220fb09dd4790bbab56d685ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbdc7a6e821bdc9969981062d8c0bb0') in 0.011254 seconds
+  Import took 0.014965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236040 seconds.
+  path: Assets/Sprites/Knight 1/knight_1_attack.anim
+  artifactKey: Guid(4f3064490f84d214ea03e9b5e6f64625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight 1/knight_1_attack.anim using Guid(4f3064490f84d214ea03e9b5e6f64625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3659d87cd4adef6b424529f5086dde') in 0.012630 seconds
+  Import took 0.016288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045814 seconds.
+  path: Assets/Scripts/Point.cs
+  artifactKey: Guid(defcec0203364d64a830520bf940ab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Point.cs using Guid(defcec0203364d64a830520bf940ab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa0580713cfcb03025f7d4de0db172a') in 0.010165 seconds
+  Import took 0.013809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043111 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(7f12248a561609f4c9fadc946eebb5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7f12248a561609f4c9fadc946eebb5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb232b8e1f0db59fd48fa55f39603d') in 0.009306 seconds
+  Import took 0.012923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618928 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(83c899098278fa9459bdbb2b221b85ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(83c899098278fa9459bdbb2b221b85ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75ebd34a6456e81d592fc8d02e13a9a') in 0.009107 seconds
+  Import took 0.012672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029732 seconds.
+  path: Assets/Sprites/Mage/archer_attack.anim
+  artifactKey: Guid(92108786cc46d10438de6eaa303f3f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Mage/archer_attack.anim using Guid(92108786cc46d10438de6eaa303f3f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a908bd77b9be4042aa09b242537b5c') in 0.010816 seconds
+  Import took 0.014505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.304607 seconds.
+  path: Assets/Scripts/NodePiece.cs
+  artifactKey: Guid(3f8596eb78ca4d04cb42369a2226d44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NodePiece.cs using Guid(3f8596eb78ca4d04cb42369a2226d44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b404b46ad686ed36fe2fbda6d39b4a') in 0.009524 seconds
+  Import took 0.013178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290372 seconds.
+  path: Assets/Scripts/ArrayLayout.cs
+  artifactKey: Guid(142d1be91545ed14c891a9ad558ce584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrayLayout.cs using Guid(142d1be91545ed14c891a9ad558ce584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77098be624fbe9b6f3cad4bcfcceaa1') in 0.009723 seconds
+  Import took 0.013341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.357715 seconds.
+  path: Assets/Sprites/Healer/healer_heal.anim
+  artifactKey: Guid(2423aed9a39fc5643bd2ba5aa42cd8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Healer/healer_heal.anim using Guid(2423aed9a39fc5643bd2ba5aa42cd8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b40fd8b0fa364c150b780b55767c696') in 0.010495 seconds
+  Import took 0.014189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942696 seconds.
+  path: Assets/Scripts/BossFight/Boss.cs
+  artifactKey: Guid(ea82a57cb5cc1e64c932e4d3cfab177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BossFight/Boss.cs using Guid(ea82a57cb5cc1e64c932e4d3cfab177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5091162f031d5971eba64f004cbab8af') in 0.008546 seconds
+  Import took 0.012161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226104 seconds.
+  path: Assets/Editor/CustPropertyDrawer.cs
+  artifactKey: Guid(aec9734df626b1949b085a28b9ea3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/CustPropertyDrawer.cs using Guid(aec9734df626b1949b085a28b9ea3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186342d2df02406fee26624f1625f202') in 0.008923 seconds
+  Import took 0.012583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088103 seconds.
+  path: Assets/Sprites/Healer/healer_idle.anim
+  artifactKey: Guid(f2979e4a1ee1c65468fb9d719cb2fe0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Healer/healer_idle.anim using Guid(f2979e4a1ee1c65468fb9d719cb2fe0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29a0053b30addf56d8b19eea92edd12') in 0.009897 seconds
+  Import took 0.013556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172603 seconds.
+  path: Assets/Scripts/Match3.cs
+  artifactKey: Guid(5946ed1962435fb45955409e38ea942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Match3.cs using Guid(5946ed1962435fb45955409e38ea942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c96c8284dd6ec1687ddae72f1ebc33') in 0.009617 seconds
+  Import took 0.013257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.743605 seconds.
+  path: Assets/Prefabs/Heros/Healer.prefab
+  artifactKey: Guid(bf6b13b292889ae46a934bbbc268d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heros/Healer.prefab using Guid(bf6b13b292889ae46a934bbbc268d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Healer': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: '21fc6c36e744ac27a2c2066dd5b0765c') in 0.020121 seconds
+  Import took 0.023967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574822 seconds.
+  path: Assets/Sprites/Knight 2/knight_2_animator.controller
+  artifactKey: Guid(eb026b9b162080b47a977c04f7e213e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight 2/knight_2_animator.controller using Guid(eb026b9b162080b47a977c04f7e213e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a584ea371a1088879a89668d169b564f') in 0.011854 seconds
+  Import took 0.015678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578312 seconds.
+  path: Assets/Prefabs/Heros/Knight_2.prefab
+  artifactKey: Guid(5fa2daf77ed4e154bb3120ac14a9ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heros/Knight_2.prefab using Guid(5fa2daf77ed4e154bb3120ac14a9ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'knight_2_animator': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: '71d1fa5f5095f454763800d3f4fa151d') in 0.024433 seconds
+  Import took 0.028327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.228214 seconds.
+  path: Assets/Scripts/MoveManager.cs
+  artifactKey: Guid(238ecbbe1d44b2644aeed6e7f2fe926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveManager.cs using Guid(238ecbbe1d44b2644aeed6e7f2fe926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3616d2331beed98dc272d5fb05e9df') in 0.009834 seconds
+  Import took 0.013685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.726273 seconds.
+  path: Assets/Prefabs/Heros/Knight_1.prefab
+  artifactKey: Guid(c07d67cf288f1c04d928688c48951f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heros/Knight_1.prefab using Guid(c07d67cf288f1c04d928688c48951f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'knight_1_animation': Transition 'Idle -> Attack' in state 'Idle' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: 'f87b9b3150e081419e818e684bd1afb9') in 0.025259 seconds
+  Import took 0.029142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248150 seconds.
+  path: Assets/Sprites/Mage/Archer.controller
+  artifactKey: Guid(21082c8ab1dc85844a7e276aa8e35514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Mage/Archer.controller using Guid(21082c8ab1dc85844a7e276aa8e35514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6f2a449fc6d4abec6f4488d8907896') in 0.011888 seconds
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004387 seconds.
+  path: Assets/Sprites/Knight 2/knight_2_attack.anim
+  artifactKey: Guid(c695c640065d2c84b8c6aa74116a78fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Knight 2/knight_2_attack.anim using Guid(c695c640065d2c84b8c6aa74116a78fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab9776cb2d921aac560bd547773c9a8') in 0.010169 seconds
+  Import took 0.013888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793098 seconds.
+  path: Assets/Sprites/Mage/archer_idle.anim
+  artifactKey: Guid(531ba2c115583704ea30e9c2f3275d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Mage/archer_idle.anim using Guid(531ba2c115583704ea30e9c2f3275d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e46d01e3b95910b9939b3b9372e10e7') in 0.010383 seconds
+  Import took 0.014067 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
